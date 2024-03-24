@@ -8,6 +8,7 @@ app.get('/trang-chu', (req, res) => {
   var a = 1;
   var b = 2;
   var c = a+b;
+  var d = c*2;
   res.send('Hello World! and I  ')
 })
 
